@@ -13,3 +13,8 @@ i linguaggi che userò sono Javascript css html e integro bootstrap.
 Terminata la parte grafica ora procederò con la logica di funzionamento 
 
 ![secondo screen della parte grafica del progetto ](./screen/Screenshot%20(2).png).
+
+
+ultimata tutta la parte logica implementata con Javascript 
+ho aggiunto delle icone per abbellire l'app con l'npm di fontaweshome
+parte grafica mi son aiutato con bootstrap

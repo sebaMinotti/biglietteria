@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <title>Document</title>
 </head>
 <body>
@@ -42,45 +43,45 @@
             </div>
             <div class="row info">
                 <div class="col-3 boxInfo">
-                     <h5 id="posto">posto treno</h5>
+                    <span><i class="fa-solid fa-couch"></i></span> <h5 id="posto">posto treno</h5>
                 </div>
                 <div class="col-4 boxInfo">
-                     <h5 id="carrozza">carrozza</h5>
+                    <span><i class="fa-solid fa-train-tram"></i></span> <h5 id="carrozza">carrozza</h5>
                 </div>
             </div>
           </div>
             <div class="biglietto">
               <div class="boxInfo"> 
                  <h4>Nome</h4>
-                 <span id="name">---</span>
+                 <span id="name"></span>
               </div>
               <div class="boxInfo">
                 <h4>Cognome</h4>
-                <span>---</span>
+                <span id="sourname"></span>
                </div>
               <div class="boxInfo"> 
                  <h4>I tuoi anni</h4> 
-                 <span>---</span> 
+                 <span id="age"></span> 
               </div>
               <div class="boxInfo">
                 <h4>Promozione</h4>
-                <span>---</span>
+                <span id="promotion"></span>
               </div>
               <div class="boxInfo">
                 <h4>Fumatore</h4>
-                <span>---</span>  
+                <span id="fumo"></span>  
               </div>
               <div class="boxInfo">
                   <h4>Lunghezza tratta</h4>
-                  <span>---</span>
+                  <span id="travel"></span>
                </div>
               <div class="boxInfo">
                <h4>Totale</h4>
-               <span>---</span>  
+               <span id="total"></span>  
               </div>
             </div>
              <div class="buttons">
-              <button type="button" class="btn btn-success">Acquista</button><button type="button" class="btn btn-warning">Annulla!</button>
+              <button id="genera" type="button" class="btn btn-success">Acquista</button><button id="annulla" type="button" class="btn btn-warning">Annulla!</button>
              </div>
        </div>
       <script src="main.js"></script>

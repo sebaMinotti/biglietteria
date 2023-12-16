@@ -9,6 +9,9 @@
     margin-top:50px ;
     position: relative;
 }
+ i{
+    font-size: 1.7em;
+}
 .container label{
     margin: 10px 0;
     color: white;
