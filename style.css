@@ -3,6 +3,19 @@
 }
 .container{
     width: 100%;
-    height: 100vh;
-    background-color: red;
+    height: 90vh;
+    background-color: rgb(121, 21, 21);
+    padding: 10px;
+    margin-top:50px ;
+}
+.container label{
+    margin: 10px 0;
+    color: white;
+}
+.info{
+    padding: 20px;
+}
+.boxInfo{
+    background-color: white;
+    margin:20px 10px;
 }
