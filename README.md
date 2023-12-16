@@ -4,3 +4,12 @@ Una semplice applicazione  che permette all'utente di scegliere il chilometraggi
 i linguaggi che userò sono Javascript css html e integro bootstrap.
 
 ![primo screen dell applicazione](./screen/Screenshot1.png).
+
+
+-------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
+
+Terminata la parte grafica ora procederò con la logica di funzionamento 
+
+![secondo screen della parte grafica del progetto ](./screen/Screenshot%20(2).png).

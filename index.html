@@ -12,11 +12,11 @@
         <div class="row g-3">
             <div class="col">
                 <label for="">inserisci il tuo nome</label>
-              <input type="text" class="form-control" placeholder="Nome" aria-label="nome">
+              <input type="text" class="form-control" placeholder="Nome" aria-label="nome" id="nome">
             </div>
             <div class="col">
                 <label for="">inserisci il tuo cognome</label>
-              <input type="text" class="form-control" placeholder="Cognome" aria-label="cognome">
+              <input type="text" class="form-control" placeholder="Cognome" aria-label="cognome" id="cognome">
             </div>
           </div>
           
@@ -25,31 +25,63 @@
           <div class="row g-3">
             <div class="col">
                 <label for="">inserisci la tua Età</label>
-              <input type="number" class="form-control" placeholder="Età" aria-label="eta">
+              <input type="number" class="form-control" placeholder="Età" aria-label="eta" id="eta">
             </div>
             <div class="col">
                 <label for="">inserisci quanti km vuoi percorrere</label>
-              <input type="number" class="form-control" placeholder="km da percorrere" aria-label="km">
+              <input type="number" class="form-control" placeholder="km da percorrere" aria-label="km" id="km">
             </div>
           </div>
 
           <div class="row">
             <div style="margin-top: 20px;" class="col-4 ">
                 <div class="col-sm">
-                    <label for=""><span style="font-size: 0.7em;">FUMATORE SE SI DESIDERA UN POSTO FUMATORE O NON FUMATORE SE NON SI DESIDERA UN POSTO FUMATORE</span> </label>
-                    <input type="text" class="form-control" placeholder="fumatore / non fumatore" aria-label="fumatore/nonfumatore">
+                    <label for=""><span style="font-size: 0.7em;">FUMATORE SE SI DESIDERA UN POSTO FUMATORE O NON FUMATORE SE NON SI  DESIDERA UN POSTO FUMATORE</span> </label>
+                    <input type="text" class="form-control" placeholder="fumatore / non fumatore" aria-label="fumatore/nonfumatore" id="fumatore">
                   </div>
             </div>
             <div class="row info">
                 <div class="col-3 boxInfo">
-                     <h5>posto treno</h5>
+                     <h5 id="posto">posto treno</h5>
                 </div>
                 <div class="col-4 boxInfo">
-                     <h5>carrozza</h5>
+                     <h5 id="carrozza">carrozza</h5>
                 </div>
             </div>
           </div>
-         
+            <div class="biglietto">
+              <div class="boxInfo"> 
+                 <h4>Nome</h4>
+                 <span id="name">---</span>
+              </div>
+              <div class="boxInfo">
+                <h4>Cognome</h4>
+                <span>---</span>
+               </div>
+              <div class="boxInfo"> 
+                 <h4>I tuoi anni</h4> 
+                 <span>---</span> 
+              </div>
+              <div class="boxInfo">
+                <h4>Promozione</h4>
+                <span>---</span>
+              </div>
+              <div class="boxInfo">
+                <h4>Fumatore</h4>
+                <span>---</span>  
+              </div>
+              <div class="boxInfo">
+                  <h4>Lunghezza tratta</h4>
+                  <span>---</span>
+               </div>
+              <div class="boxInfo">
+               <h4>Totale</h4>
+               <span>---</span>  
+              </div>
+            </div>
+             <div class="buttons">
+              <button type="button" class="btn btn-success">Acquista</button><button type="button" class="btn btn-warning">Annulla!</button>
+             </div>
        </div>
       <script src="main.js"></script>
 </body>
